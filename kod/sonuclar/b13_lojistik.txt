@@ -1,0 +1,73 @@
+n pass 81 -2LL0 151.33944681264353 b0 null 0.7308875085427926 exp 2.0769230769230775
+Intercept   -1.490639
+calisma      0.364915
+dtype: float64 Intercept    0.577859
+calisma      0.093473
+dtype: float64 Intercept     6.65429
+calisma      15.24075
+dtype: float64 Intercept    0.009892
+calisma      0.000095
+dtype: float64 Intercept    0.225229
+calisma      1.440391
+dtype: float64                   0         1
+Intercept  0.072569  0.699033
+calisma    1.199266  1.729996 -2LL 131.3634690275249
+calisma 4 logit -0.030980415127161987 p 0.49225551562901926
+calisma 8 logit 1.4286779179461868 p 0.8066952364835533
+                         Results: Logit
+=================================================================
+Model:              Logit            Method:           MLE       
+Dependent Variable: gecti            Pseudo R-squared: 0.271     
+Date:               2026-10-17 16:30 AIC:              120.3308  
+No. Observations:   120              BIC:              134.2683  
+Df Model:           4                Log-Likelihood:   -55.165   
+Df Residuals:       115              LL-Null:          -75.670   
+Converged:          1.0000           LLR p-value:      2.6768e-08
+No. Iterations:     6.0000           Scale:            1.0000    
+------------------------------------------------------------------
+               Coef.   Std.Err.     z     P>|z|    [0.025   0.975]
+------------------------------------------------------------------
+Intercept      2.1015    1.7305   1.2144  0.2246  -1.2903   5.4932
+calisma        0.2885    0.1094   2.6369  0.0084   0.0741   0.5030
+devamsizlik   -0.5523    0.1787  -3.0915  0.0020  -0.9025  -0.2022
+kaygi         -0.0426    0.0252  -1.6921  0.0906  -0.0919   0.0067
+birinci        1.2013    0.4848   2.4778  0.0132   0.2511   2.1516
+=================================================================
+
+Wald Intercept      1.474678
+calisma        6.953375
+devamsizlik    9.557154
+kaygi          2.863292
+birinci        6.139342
+dtype: float64
+OR Intercept      8.178251
+calisma        1.334444
+devamsizlik    0.575609
+kaygi          0.958321
+birinci        3.324584
+dtype: float64
+ORCI                     0           1
+Intercept    0.275195  243.041532
+calisma      1.076881    1.653609
+devamsizlik  0.405555    0.816967
+kaygi        0.912211    1.006761
+birinci      1.285384    8.598876
+-2LL 110.33083576195679 omnibus 41.00861105068674 2.6768169694564753e-08
+CoxSnell 0.289465961955641 Nagelkerke 0.4039010691377105 McFadden 0.270971064810716
+col_0   0   1
+gecti        
+0      21  18
+1       5  76 acc 0.8083333333333333
+HL 10.15431350040022 0.2543617995511622
+example eta 3.1428514484268 p 0.9586261230875672
+example2 eta -1.508119171220275 p 0.18121769916540778
+id 57 gecti 0 p 0.994 zres -12.57 dev -3.18 cook 0.184 lev 0.006
+id 12 gecti 0 p 0.947 zres -4.24 dev -2.43 cook 0.063 lev 0.017
+id 45 gecti 0 p 0.846 zres -2.35 dev -1.94 cook 0.026 lev 0.023
+id 32 gecti 1 p 0.164 zres 2.26 dev 1.9 cook 0.038 lev 0.035
+n |zres|>2 5 2
+LR test each var (drop1):
+calisma 7.850348596087173 0.005081090899111662
+devamsizlik 11.651181046423432 0.000641617866834185
+kaygi 2.9646208113711054 0.08510440898231646
+birinci 6.534275859459299 0.010581529143567572

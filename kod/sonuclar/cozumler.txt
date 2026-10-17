@@ -1,0 +1,66 @@
+3.1 23.375 19.0 15.380298157986775 48.0
+ w/o60 18.142857142857142 18.0 4.525062483125562 13.0
+3.2 1.091140728769239
+3.6 sube 1 51.27 11.35 51.5 31 80
+3.6 sube 2 49.68 9.6 51.5 27 66
+4.5 ShapiroResult(statistic=np.float64(0.9457064017590049), pvalue=np.float64(0.00010602343611926804)) 8
+5.5 n 129.11207660484385
+6.4 49.666666666666664 10.36018017861337 51.20634920634921 10.650092730413695 LeveneResult(statistic=np.float64(8.143734311503766e-05), pvalue=np.float64(0.9928150159111994)) TtestResult(statistic=np.float64(-0.8011259233192047), pvalue=np.float64(0.42466893503574504), df=np.float64(118.0)) MannwhitneyuResult(statistic=np.float64(1616.0), pvalue=np.float64(0.3450945679461058))
+7.2 F p 0.0033931948922069125
+7.6    Source           SS   DF           MS          F         p_unc       np2
+0  yontem  4655.216667    2  2327.608333  30.790646  1.804967e-11  0.344836
+1  Within  8844.575000  117    75.594658        NaN           NaN       NaN LeveneResult(statistic=np.float64(0.2186586108167827), pvalue=np.float64(0.8039236474284855))
+   A  B  mean_A  mean_B    diff        se         T       p_tukey    hedges
+0  1  2  53.375    66.6 -13.225  1.944154 -6.802446  1.386684e-09 -1.572227
+1  1  3  53.375    53.4  -0.025  1.944154 -0.012859  9.999088e-01 -0.002834
+2  2  3  66.600    53.4  13.200  1.944154  6.789587  1.478226e-09  1.452151
+9.5 C(yontem) [np.float64(0.7867496825440763) np.int64(6) np.float64(224.0)
+ np.float64(4.756623445091529) np.float64(0.00013872837295057214)] [np.float64(0.21402040394080793) np.float64(6.0) np.float64(226.0)
+ np.float64(4.513733098010482) np.float64(0.00024233723150241107)]
+9.5 C(sube) [np.float64(0.9923581609200347) np.int64(3) np.float64(112.0)
+ np.float64(0.2874922955110631) np.float64(0.8343482491486323)] [np.float64(0.007641839079965339) np.float64(3.0) np.float64(112.0)
+ np.float64(0.28749229551106475) np.float64(0.8343482491486311)]
+9.5 C(yontem):C(sube) [np.float64(0.8463318892864228) np.int64(6) np.float64(224.0)
+ np.float64(3.248009656488577) np.float64(0.004421585615635198)] [np.float64(0.1545415397568078) np.float64(6.0) np.float64(226.0)
+ np.float64(3.1542648017154504) np.float64(0.0054493464719525524)]
+10.1 Power_divergenceResult(statistic=np.float64(2.9999999999999996), pvalue=np.float64(0.6999858358786276))
+10.6 sube     1   2
+basari        
+1       11  13
+2       31  35
+3       18  12 (np.float64(1.609090909090909), np.float64(0.4472911945379243), 2)
+  tau-b SignificanceResult(statistic=np.float64(0.09625334218796218), pvalue=np.float64(0.2703852166438686))
+  gamma 0.17532467532467533
+11.1 cov 1.5 r 0.7745966692414834
+11.2 t 2.0418417291893176 p 0.050689644757176355 CI -0.00031627467181982976 0.6375815113609574 crit 2.0484071417952454
+11.5 PearsonRResult(statistic=np.float64(-0.3560434304227407), pvalue=np.float64(6.578555381680693e-05)) SignificanceResult(statistic=np.float64(-0.34666774336105977), pvalue=np.float64(0.00010497355410194454)) SignificanceResult(statistic=np.float64(-0.2612313629827399), pvalue=np.float64(0.00010313780995532868))
+12.6 Intercept         45.435
+C(yontem)[T.2]    12.857
+C(yontem)[T.3]     0.178
+calisma            1.226
+dtype: float64 Intercept         0.0000
+C(yontem)[T.2]    0.0000
+C(yontem)[T.3]    0.9208
+calisma           0.0000
+dtype: float64 0.44953354502106524
+12.3 F p 5.10669698767172e-13
+13.6 Intercept         0.622
+C(yontem)[T.2]    7.257
+C(yontem)[T.3]    0.827
+calisma           1.480
+devamsizlik       0.553
+dtype: float64 Intercept         0.5797
+C(yontem)[T.2]    0.0040
+C(yontem)[T.3]    0.7236
+calisma           0.0004
+devamsizlik       0.0012
+dtype: float64                    0      1
+Intercept       0.12   3.34
+C(yontem)[T.2]  1.88  28.01
+C(yontem)[T.3]  0.29   2.37
+calisma         1.19   1.84
+devamsizlik     0.39   0.79
+10.5 p 0.01796047752607879 10.4 1.4118846808789984e-05
+13.3 3.141746226323637e-06 0.171937518476452 0.24576268766404505
+7.4 one-sided 0.06325223687731141
+6.1 -2.375000000000007 0.031316428003853224

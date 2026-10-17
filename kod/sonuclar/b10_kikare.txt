@@ -1,0 +1,41 @@
+tercih [35 48 37] Power_divergenceResult(statistic=np.float64(2.45), pvalue=np.float64(0.2937577003235327)) 5.991464547107979
+expected prev [48. 42. 30.] Power_divergenceResult(statistic=np.float64(6.011309523809524), pvalue=np.float64(0.04950632885594074))
+gecti    0   1
+yontem        
+1       16  24
+2        5  35
+3       18  22
+Chi2ContingencyResult(statistic=np.float64(11.168091168091168), pvalue=np.float64(0.0037573341186472073), dof=2, expected_freq=array([[13., 27.],
+       [13., 27.],
+       [13., 27.]]))
+std res [[ 0.83 -0.58]
+ [-2.22  1.54]
+ [ 1.39 -0.96]] adj [[ 1.24 -1.24]
+ [-3.31  3.31]
+ [ 2.07 -2.07]]
+V 0.3050695435482863 C 0.2917933405778144
+LR 12.305795454300995 0.0021273084705759828
+row pct [[40.  60. ]
+ [12.5 87.5]
+ [45.  55. ]]
+gecti   0   1
+sube         
+1      13  47
+2      26  34
+pearson (np.float64(6.419753086419752), np.float64(0.011285785150819235), 1) yates (np.float64(5.47008547008547), np.float64(0.019344679488019347)) E [[19.5 40.5]
+ [19.5 40.5]]
+LR 6.512845385100871 0.010709800347061567
+fisher SignificanceResult(statistic=np.float64(0.3617021276595745), pvalue=np.float64(0.018755178542292493)) SignificanceResult(statistic=np.float64(0.3617021276595745), pvalue=np.float64(0.009377589271146246)) SignificanceResult(statistic=np.float64(0.3617021276595745), pvalue=np.float64(0.9970053714488438))
+phi -0.23129622216290366
+OR 0.3617021276595745 (np.float64(0.1627305027735363), np.float64(0.8039576288627978))
+odds pass sube1 3.6153846153846154 sube2 1.3076923076923077 OR pass 1 vs 2 2.764705882352941
+son_test   0   1
+on_test         
+0         25  58
+1          0  37
+mcnemar exact pvalue      6.938893903907228e-18
+statistic   0.0 chi2 cc pvalue      7.183826028768955e-14
+statistic   56.01724137931034 nocc pvalue      2.6211778256716213e-14
+statistic   58.0
+small SignificanceResult(statistic=np.float64(0.07407407407407407), pvalue=np.float64(0.057275541795665644)) [[3.5 6.5]
+ [3.5 6.5]]

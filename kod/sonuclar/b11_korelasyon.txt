@@ -1,0 +1,43 @@
+          0   1   2   3   4   5   6   7
+id        1   2   3   4   5   6   7   8
+calisma   6   7   7   3   9  13   9   2
+final    48  36  42  60  78  79  54  35
+sum x 56.0 sum y 432.0 mean 7.0 54.0
+dx [-1.  0.  0. -4.  2.  6.  2. -5.] dy [ -6. -18. -12.   6.  24.  25.   0. -19.] prod [  6.  -0.  -0. -24.  48. 150.   0.  95.] Sxy 275.0 Sxx 86.0 Syy 2102.0
+cov 39.285714285714285 sx 3.5050983275386565 sy 17.328753973835344 r PearsonRResult(statistic=np.float64(0.6467956826894474), pvalue=np.float64(0.08303855297508439))
+ranks [3.  4.5 4.5 2.  6.5 8.  6.5 1. ] [4. 2. 3. 6. 7. 8. 5. 1.] d2 28.0 spearman SignificanceResult(statistic=np.float64(0.6626987024788349), pvalue=np.float64(0.07330582330837658)) formula 0.6666666666666667 kendall SignificanceResult(statistic=np.float64(0.5188745216627709), pvalue=np.float64(0.07854585095119067))
+             calisma  devamsizlik  kaygi  on_test  final
+calisma        1.000       -0.249 -0.360   -0.039  0.526
+devamsizlik   -0.249        1.000  0.068   -0.111 -0.356
+kaygi         -0.360        0.068  1.000    0.010 -0.322
+on_test       -0.039       -0.111  0.010    1.000  0.251
+final          0.526       -0.356 -0.322    0.251  1.000
+calisma devamsizlik -0.249 0.006
+calisma kaygi -0.36 0.0001
+calisma on_test -0.039 0.6749
+calisma final 0.526 0.0
+devamsizlik kaygi 0.068 0.4593
+devamsizlik on_test -0.111 0.2271
+devamsizlik final -0.356 0.0001
+kaygi on_test 0.01 0.9119
+final kaygi -0.322 0.0003
+final on_test 0.251 0.0056
+PearsonRResult(statistic=np.float64(0.5259203355234335), pvalue=np.float64(6.898604451827199e-10)) ConfidenceInterval(low=np.float64(0.38276055779014445), high=np.float64(0.6444148369295863)) t 6.716907594442705
+fisher z 0.5844888148120925 CI 0.38275771596572816 0.6444167838586168
+without 57 PearsonRResult(statistic=np.float64(0.5885958527736739), pvalue=np.float64(1.9251683184244556e-12))
+spearman calisma final SignificanceResult(statistic=np.float64(0.5050762055641252), pvalue=np.float64(4.031197715892775e-09)) kendall SignificanceResult(statistic=np.float64(0.37721842659465676), pvalue=np.float64(7.312711758811896e-09))
+spearman kaygi final SignificanceResult(statistic=np.float64(-0.33241070854236004), pvalue=np.float64(0.0002078186525962246)) pearson PearsonRResult(statistic=np.float64(-0.3224520499425406), pvalue=np.float64(0.0003284715844511968))
+rpb final sube1 PearsonRResult(statistic=np.float64(0.19020368134967025), pvalue=np.float64(0.03745188319450689))
+rpb calisma gecti 0.38571281205369484 1.3575106692903954e-05 p 0.675 ordinate 0.3599145647561887 rb 0.5019474012249993
+           n        r           CI95     p_val
+pearson  120 -0.16762  [-0.34, 0.01]  0.068435
+           n         r           CI95     p_val
+pearson  120 -0.156366  [-0.33, 0.02]  0.089468
+           n         r           CI95     p_val
+pearson  120 -0.142566  [-0.31, 0.04]  0.121933
+partial formula -0.16761993916175688 semipartial (kaygi resid) -0.14256642930357774
+sim r 0.896720393690075
+sim r 0.45731400466400357
+sim r -0.11312022469826175
+sim r -0.6785511197030362
+nonlin r -0.01482115337558657

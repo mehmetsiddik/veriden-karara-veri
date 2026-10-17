@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Bu veri setlerini ya da kodları kullanırsanız lütfen aşağıdaki gibi atıf yapınız."
+title: "Veriden Karara: Veri Setleri ve Kodlar"
+type: dataset
+authors:
+  - family-names: "Çadırcı"
+    given-names: "Mehmet Siddik"
+    orcid: "https://orcid.org/0000-0001-7654-7609"
+    affiliation: "Sivas Cumhuriyet Üniversitesi"
+version: "1.0.0"
+date-released: "2026-10-17"
+license: CC-BY-4.0
+repository-code: "https://github.com/mehmetsiddik/veriden-karara-veri"
+url: "https://github.com/mehmetsiddik/veriden-karara-veri"
+abstract: >-
+  Veriden Karara: SPSS ile Uygulamalı İstatistiksel Analiz adlı ders kitabında
+  kullanılan benzetim veri setleri (SPSS .sav ve CSV), SPSS söz dizimi ve
+  kitaptaki bütün sayısal sonuçları yeniden üreten Python kodları.
+  Veriler öğretim amacıyla üretilmiştir ve gerçek kişilere ait değildir.
+keywords:
+  - SPSS
+  - istatistik
+  - veri analizi
+  - ders kitabı
+  - benzetim verisi

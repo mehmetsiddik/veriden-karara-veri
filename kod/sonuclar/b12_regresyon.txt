@@ -1,0 +1,136 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  final   R-squared:                       0.277
+Model:                            OLS   Adj. R-squared:                  0.270
+Method:                 Least Squares   F-statistic:                     45.12
+Date:                Sat, 17 Oct 2026   Prob (F-statistic):           6.90e-10
+Time:                        16:30:28   Log-Likelihood:                -476.03
+No. Observations:                 120   AIC:                             956.1
+Df Residuals:                     118   BIC:                             961.6
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     35.4971      2.983     11.900      0.000      29.590      41.404
+calisma        2.8181      0.420      6.717      0.000       1.987       3.649
+==============================================================================
+Omnibus:                       10.929   Durbin-Watson:                   1.679
+Prob(Omnibus):                  0.004   Jarque-Bera (JB):               13.687
+Skew:                          -0.522   Prob(JB):                      0.00107
+Kurtosis:                       4.283   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+anova              df        sum_sq      mean_sq          F        PR(>F)
+calisma     1.0   7495.646297  7495.646297  45.116848  6.898604e-10
+Residual  118.0  19604.345370   166.138520        NaN           NaN
+SEest 12.88947322762523
+        mean   mean_se  ...  obs_ci_lower  obs_ci_upper
+0  63.677585  1.870787  ...     37.885471     89.469699
+
+[1 rows x 6 columns]
+sxx 943.8666666666666 sxy 2659.866666666667 b1 2.818053397372511
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  final   R-squared:                       0.412
+Model:                            OLS   Adj. R-squared:                  0.391
+Method:                 Least Squares   F-statistic:                     20.14
+Date:                Sat, 17 Oct 2026   Prob (F-statistic):           1.37e-12
+Time:                        16:30:28   Log-Likelihood:                -463.61
+No. Observations:                 120   AIC:                             937.2
+Df Residuals:                     115   BIC:                             951.2
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+Intercept      37.8071      9.377      4.032      0.000      19.233      56.382
+on_test         0.3903      0.115      3.408      0.001       0.163       0.617
+calisma         2.2829      0.424      5.381      0.000       1.443       3.123
+devamsizlik    -2.0417      0.718     -2.845      0.005      -3.463      -0.620
+kaygi          -0.2257      0.110     -2.048      0.043      -0.444      -0.007
+==============================================================================
+Omnibus:                       35.108   Durbin-Watson:                   1.693
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               89.422
+Skew:                          -1.102   Prob(JB):                     3.82e-20
+Kurtosis:                       6.610   Cond. No.                         600.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+SEest 11.772399764322714 DW 1.6926931821875189
+beta Intercept      0.000
+on_test        0.246
+calisma        0.426
+devamsizlik   -0.212
+kaygi         -0.157
+dtype: float64
+VIF [np.float64(1.017), np.float64(1.226), np.float64(1.084), np.float64(1.15)]
+on_test zero 0.251 partial 0.303 part 0.244
+calisma zero 0.526 partial 0.449 part 0.385
+devamsizlik zero -0.356 partial -0.256 part -0.203
+kaygi zero -0.322 partial -0.188 part -0.146
+                df        sum_sq      mean_sq          F        PR(>F)
+on_test        1.0   1710.899942  1710.899942  12.345100  6.331325e-04
+calisma        1.0   7786.869889  7786.869889  56.186621  1.482111e-11
+devamsizlik    1.0   1083.232496  1083.232496   7.816128  6.070219e-03
+kaygi          1.0    581.208776   581.208776   4.193746  4.285096e-02
+Residual     115.0  15937.780564   138.589396        NaN           NaN
+block1 R2 0.0631328585879497 7.951690249430538 0.005636883366522242
+dR2 0.34875697664504035 Fchange 22.732165228526952 1.2561664906528064e-11
+Intercept         34.587566
+C(yontem)[T.2]     8.599417
+C(yontem)[T.3]    -2.787185
+on_test            0.362925
+calisma            2.250999
+devamsizlik       -1.920401
+kaygi             -0.177671
+dtype: float64 Intercept         8.644896
+C(yontem)[T.2]    2.423673
+C(yontem)[T.3]    2.482845
+on_test           0.105551
+calisma           0.389814
+devamsizlik       0.658576
+kaygi             0.103624
+dtype: float64 Intercept         1.130577e-04
+C(yontem)[T.2]    5.663113e-04
+C(yontem)[T.3]    2.639967e-01
+on_test           8.202388e-04
+calisma           6.896680e-08
+devamsizlik       4.277003e-03
+kaygi             8.916512e-02
+dtype: float64 0.5140101327972391 0.4882053610873579
+dR2 b3 0.10212029756424901 11.872257431188045 2.089401347624712e-05
+id 57 zres -4.768 sres -4.895 cook 0.26 lev 0.051 mah 5.135 dfbeta max 0.708 covr 0.342
+id 2 zres -1.786 sres -1.882 cook 0.078 lev 0.1 mah 10.867 dfbeta max 0.49 covr 0.992
+id 15 zres 1.954 sres 2.012 cook 0.049 lev 0.057 mah 5.776 dfbeta max 0.304 covr 0.926
+id 88 zres -1.968 sres -2.025 cook 0.048 lev 0.056 mah 5.638 dfbeta max 0.436 covr 0.923
+n |zres|>2 2 >3 1 max lev 0.11466603660664304 2p/n 0.08333333333333333 max mah 12.653591689523855 cov bounds 0.875 1.125
+mean lev 0.04166666666666668
+no57 Intercept      38.255
+on_test         0.392
+calisma         2.551
+devamsizlik    -2.409
+kaygi          -0.243
+dtype: float64 0.5109774756975434 Intercept      0.0000
+on_test        0.0002
+calisma        0.0000
+devamsizlik    0.0003
+kaygi          0.0150
+dtype: float64
+shapiro resid ShapiroResult(statistic=np.float64(0.9441716583069942), pvalue=np.float64(8.272087584140521e-05))
+maxlev id 69 0.11466603660664304 [20, 58, 97, 40, 2]
+covratio out [(np.int64(11), np.float64(1.138)), (np.int64(20), np.float64(1.166)), (np.int64(40), np.float64(1.159)), (np.int64(46), np.float64(1.136)), (np.int64(57), np.float64(0.342)), (np.int64(58), np.float64(1.166)), (np.int64(69), np.float64(1.156)), (np.int64(87), np.float64(0.814))]
+|dfbetas|>1 [] thresh 2/sqrt n 0.18257418583505536 [(np.int64(2), np.float64(0.49)), (np.int64(4), np.float64(0.24)), (np.int64(12), np.float64(0.19)), (np.int64(15), np.float64(0.3)), (np.int64(57), np.float64(0.71)), (np.int64(60), np.float64(0.2)), (np.int64(77), np.float64(0.2)), (np.int64(83), np.float64(0.28)), (np.int64(84), np.float64(0.24)), (np.int64(88), np.float64(0.44)), (np.int64(89), np.float64(0.22)), (np.int64(97), np.float64(0.29)), (np.int64(104), np.float64(0.19)), (np.int64(112), np.float64(0.21)), (np.int64(117), np.float64(0.21)), (np.int64(120), np.float64(0.19))]
+no57 shapiro ShapiroResult(statistic=np.float64(0.990230806818847), pvalue=np.float64(0.5612913941152977)) skew -0.2545640332187297 kurt 0.12067878121633635 Intercept      8.380
+on_test        0.102
+calisma        0.382
+devamsizlik    0.645
+kaygi          0.099
+dtype: float64
+tol [np.float64(0.983), np.float64(0.816), np.float64(0.923), np.float64(0.87)]
+ids |z|>2 [57, 87] [-4.77, -2.41]
+SS reg m2 11162.211102398736 SSE 15937.780564267932 MSE 138.5893962110255 F 20.13539889697334 R 0.6417864405181758
+f2 block2 0.5930130059615727

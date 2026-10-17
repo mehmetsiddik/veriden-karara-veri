@@ -1,0 +1,48 @@
+                                    sum_sq     df            F        PR(>F)
+Intercept                    348733.008333    1.0  2087.054093  3.958268e-75
+C(yontem, Sum)                 4108.216667    2.0    12.293173  1.463899e-05
+C(sube, Sum)                    980.408333    1.0     5.867426  1.699890e-02
+C(yontem, Sum):C(sube, Sum)    2962.716667    2.0     8.865450  2.638639e-04
+Residual                      19048.650000  114.0          NaN           NaN
+MSE 167.09342105263158 df 114.0
+C(yontem, Sum) partial eta 0.17740814099777422
+C(sube, Sum) partial eta 0.04894929741662851
+C(yontem, Sum):C(sube, Sum) partial eta 0.13459939637248036
+              mean     std  count
+yontem sube                      
+1      1     53.95  14.870     20
+       2     50.90  10.862     20
+2      1     59.25  17.341     20
+       2     64.15   9.433     20
+3      1     57.10   8.608     20
+       2     38.10  14.131     20
+marg yontem [52.425, 61.7, 47.6] marg sube [56.766666666666666, 51.05]
+levene 6 cells LeveneResult(statistic=np.float64(2.947611740093339), pvalue=np.float64(0.01535809150870371))
+sube | yontem 1 3.05 4.088 F 0.557 p 0.4571 CI -5.0477145295421035 11.147714529542112
+sube | yontem 2 -4.9 4.088 F 1.437 p 0.2331 CI -12.997714529542113 3.197714529542102
+sube | yontem 3 19.0 4.088 F 21.605 p 0.0 CI 10.902285470457892 27.09771452954211
+yontem | sube 1 [53.95, 59.25, 57.1] SS 284.233 F 0.851 p 0.42988431943690136
+yontem | sube 2 [50.9, 64.15, 38.1] SS 6786.7 F 20.308 p 2.8578643017548044e-08
+                              sum_sq     df          F        PR(>F)
+Intercept                6908.980802    1.0  36.625848  1.870361e-08
+C(yontem, Sum)             73.109304    2.0   0.193783  8.241072e-01
+on_test                  1440.829065    1.0   7.638114  6.665598e-03
+C(yontem, Sum):on_test     86.583535    2.0   0.229498  7.952989e-01
+Residual                21504.589068  114.0        NaN           NaN
+                      sum_sq     df          F        PR(>F)
+Intercept        7093.243356    1.0  38.108918  1.014283e-08
+C(yontem, Sum)   3797.919122    2.0  10.202286  8.288687e-05
+on_test          1400.602397    1.0   7.524829  7.052154e-03
+Residual        21591.172603  116.0        NaN           NaN
+Intercept              37.567957
+C(yontem, Sum)[S.1]    -1.782574
+C(yontem, Sum)[S.2]     7.619376
+on_test                 0.362716
+dtype: float64
+C(yontem, Sum) peta 0.1495886171670959
+on_test peta 0.060917541044001634
+mean on_test 45.05 [45.88, 45.52, 43.75]
+adj mean 1 [[52.126  2.16 ]]
+adj mean 2 [[61.528  2.158]]
+adj mean 3 [[48.072  2.164]]
+one-way without cov F 10.45

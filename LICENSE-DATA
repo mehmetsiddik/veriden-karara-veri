@@ -1,0 +1,19 @@
+Veri setleri ve belgeler / Datasets and documentation
+=====================================================
+
+Kapsam / Scope: data/*.sav, data/*.csv, data/SOZLUK.md, figures/data/*, kod/sonuclar/*
+
+Copyright (c) 2026 Mehmet Siddik Çadırcı
+
+Bu dosyalar Creative Commons Atıf 4.0 Uluslararası Lisansı (CC BY 4.0) ile
+lisanslanmıştır. Uygun atıf yapılması koşuluyla her amaçla kopyalanabilir,
+dağıtılabilir ve uyarlanabilir.
+
+These files are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0).
+
+Lisans özeti / Summary:  https://creativecommons.org/licenses/by/4.0/deed.tr
+Lisans metni / Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Not: Veriler bilgisayar benzetimiyle üretilmiştir ve gerçek kişilere ait değildir.
+Note: All data are simulated and contain no information on real persons.

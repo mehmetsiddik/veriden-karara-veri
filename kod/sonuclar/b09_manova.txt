@@ -1,0 +1,23 @@
+         vize         final         proje      
+         mean    std   mean    std   mean   std
+yontem                                         
+1       56.90  10.67  52.42  12.95  53.38  8.04
+2       61.75  11.13  61.70  14.00  66.60  8.61
+3       52.02  11.09  47.60  15.03  53.40  9.38
+        vize  final  proje
+vize   1.000  0.786  0.347
+final  0.786  1.000  0.565
+proje  0.347  0.565  1.000
+                           Value Num DF      Den DF    F Value Pr > F
+Wilks' lambda           0.619494      6       230.0  10.369918    0.0
+Pillai's trace          0.392707    6.0       232.0    9.44735    0.0
+Hotelling-Lawley trace  0.594525      6  151.568513   11.34661    0.0
+Roy's greatest root     0.559312      3         116  21.626729    0.0
+eig [5.59311953e-01 3.52130445e-02 8.01170816e-17]
+Wilks 0.6194942164669066 Pillai 0.39270676962088463 HL 0.5945249974177459 Roy 0.5593119529576908 s 2
+partial eta wilks 0.21292045099182855 pillai 0.19635338481044232 HL 0.22914598934658909 roy 0.35869150614589485
+BoxM 5.663891126478575 F 0.45442440375468746 df1 12.0 df2 66339.00000000006 p 0.9411032427046568
+vize F F_onewayResult(statistic=np.float64(7.867828136582036), pvalue=np.float64(0.000622441054555597)) eta 0.11854882640411855 levene LeveneResult(statistic=np.float64(0.4248318124730158), pvalue=np.float64(0.65488432730057))
+final F F_onewayResult(statistic=np.float64(10.452897829767384), pvalue=np.float64(6.657261103542466e-05)) eta 0.15159475756296364 levene LeveneResult(statistic=np.float64(0.7066921063464797), pvalue=np.float64(0.4953663542238376))
+proje F F_onewayResult(statistic=np.float64(30.790645678282996), pvalue=np.float64(1.8049671583808404e-11)) eta 0.3448361857436069 levene LeveneResult(statistic=np.float64(0.2186586108167827), pvalue=np.float64(0.8039236474284855))
+T2 sube 5.042144600574808 F 1.6522281741996545 df 3 116 p 0.18122235911566192
